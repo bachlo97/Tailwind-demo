@@ -1,18 +1,20 @@
-import {UserProfile} from "./One/userProfile"
-import JobList from "./Two/JobList"
+import { UserProfile } from "./One/userProfile";
+import { Collections } from "./Three/collections";
+import JobList from "./Two/JobList";
 
 function App() {
-
   return (
-    <div className="w-full h-screen bg-[#E6EFFA] flex items-center  justify-center">
-
-      {/* Two */}
-      <JobList/>
+    <div className="flex h-screen w-full items-center justify-center bg-[#E6EFFA]">
+      {/* Three */}
+      <Collections/>
       
-      {/* One */} 
+      {/* Two */}
+      {/* <JobList /> */}
+
+      {/* One */}
       {/* <UserProfile/> */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

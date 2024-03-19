@@ -3,12 +3,11 @@ export default {
   content: ["./src/**/*.{html,tsx,jsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        popi :'Poppins',
-        meri :'Merriweather'
-      }
+      fontFamily: {
+        popi: "Poppins",
+        meri: "Merriweather",
+      },
     },
   },
   plugins: [],
-}
-
+};
