@@ -16,9 +16,8 @@ export const Review: any = () => {
             width="37"
             height="37"
             viewBox="0 0 37 37"
-            fill={star <= reviewScore ? 'yellow': 'none'}
+            fill={star <= reviewScore ? "yellow" : "none"}
             xmlns="http://www.w3.org/2000/svg"
-           
           >
             <g clip-path="url(#clip0_4_28)">
               <path

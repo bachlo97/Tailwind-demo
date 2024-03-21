@@ -3,7 +3,7 @@ import { Input } from "./input";
 
 export const ReviewForm : () => any = () => {
   return (
-    <div className="w-[42rem] space-y-8 rounded-3xl bg-white p-16">
+    <div className="w-[42rem] space-y-8 rounded-3xl bg-white p-16 my-4">
       <h1 className="font-meri text-2xl font-black">Overall rating</h1>
       <div>
         <Review/>
