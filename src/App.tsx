@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex min-h-screen w-full items-center justify-center bg-[#E6EFFA]">
       {/* Seven */}
-      <Subscriptions/>
+      {/* <Subscriptions/> */}
         
       {/* Six */}
       {/* <Notification/> */}
@@ -28,7 +28,7 @@ function App() {
       {/* <JobList /> */}
 
       {/* One */}
-      {/* <UserProfile/> */}
+      <UserProfile/>
     </div>
   );
 }
